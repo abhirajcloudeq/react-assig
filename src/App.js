@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import Frops2 from './component';
+import CounterHooks from './counterusinghook';
+import CounterHook from './counteruseeffect';
+import Change from './conditon';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Frops2 name='abbhiraj' company='cloudeqw' />
+      <CounterHooks/>
+      <CounterHook/>
+      <Change/>
     </div>
   );
 }
